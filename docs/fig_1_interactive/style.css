@@ -13,6 +13,9 @@ body {
 
 .container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .slider-container {
@@ -24,6 +27,7 @@ body {
 .slider-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
 }
 
@@ -34,4 +38,8 @@ body {
 .slider {
   width: 200px;
   margin: 0 10px;
+}
+.reset-container {
+  display: flex;
+  justify-content: center;
 }

@@ -1,0 +1,37 @@
+body {
+  font-family: "Computer Modern Serif", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.plots-container {
+  width: 120vb;
+}
+
+.container {
+  text-align: center;
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.slider-label {
+  margin: 0 10px;
+}
+
+.slider {
+  width: 200px;
+  margin: 0 10px;
+}
